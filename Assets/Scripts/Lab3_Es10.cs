@@ -13,13 +13,13 @@ public class Lab3_Es10 : MonoBehaviour
         Debug.Log("il voto è A+");
         else if (voto >= 9)
         Debug.Log("il voto è A");
-        else if (voto >= 7.8f)
+        else if (voto >= 7 && voto <= 8)
         Debug.Log("il voto è B");
         else if (voto >= 6)
         Debug.Log("il voto è C");
-        else if (voto >= 5f)
+        else if (voto >= 5)
         Debug.Log("il voto è E");
-        else if (voto >= 0.4f)
+        else if (voto >= 0 && voto <= 4)
         Debug.Log("il voto è F");
         else
         Debug.Log("voto non valido");
